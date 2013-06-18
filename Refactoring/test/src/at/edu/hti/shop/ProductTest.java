@@ -8,8 +8,8 @@ public class ProductTest {
 
 	@Test
 	public void testSetting() throws Exception {
-		Product temp = new Product();
-		temp.setId("1");
+		Product temp = new Product("1");
+//		temp.setId("1");
 		temp.setName("name");
 		temp.setPrice(2.0);
 

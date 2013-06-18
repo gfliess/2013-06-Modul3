@@ -40,7 +40,7 @@ public class CalculatorImpl implements Calculator {
 	@Override
 	public double pop() throws CalculatorException {
 		if (stack_.isEmpty())
-			throw new CalculatorException();
+			throw new CalculatorException("Stack is empty");
 		return stack_.pop();
 	}
 
